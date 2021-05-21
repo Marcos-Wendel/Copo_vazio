@@ -1,0 +1,12 @@
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\bin\Debug\CopoVazio.exe.config
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\bin\Debug\CopoVazio.exe
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\bin\Debug\CopoVazio.pdb
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.csprojAssemblyReference.cache
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.Properties.Resources.resources
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.csproj.GenerateResource.cache
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.csproj.CoreCompileInputs.cache
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.exe
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.pdb
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.frmCriarPersonagem.resources
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.frmLoreECriacao.resources
+C:\Users\vig-m\Desktop\Trabalhos da ATHON\3º Semestre\Introdução a Programação Orientada a Objetos\Projeto - TRABALHO FINAL\CopoVazio\CopoVazio\obj\Debug\CopoVazio.frmCopoVazio.resources

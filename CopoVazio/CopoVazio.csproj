@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1EB1D2FE-6DA8-424A-B26D-6F6D55CE9130}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CopoVazio</RootNamespace>
+    <AssemblyName>CopoVazio</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Base.cs" />
+    <Compile Include="Classes\Bosses\Beholder.cs" />
+    <Compile Include="Classes\Bosses\Bosses.cs" />
+    <Compile Include="Classes\Bosses\CavaleiroDaMorte.cs" />
+    <Compile Include="Classes\Bosses\Dragao.cs" />
+    <Compile Include="Classes\Bosses\Minotauro.cs" />
+    <Compile Include="Classes\Bosses\Tarrasque.cs" />
+    <Compile Include="Classes\Guerreiro.cs" />
+    <Compile Include="Classes\Jogador.cs" />
+    <Compile Include="Classes\Ladino.cs" />
+    <Compile Include="Classes\Mago.cs" />
+    <Compile Include="CriarPersonagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriarPersonagem.Designer.cs">
+      <DependentUpon>CriarPersonagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CriaturaViva.cs" />
+    <Compile Include="frmCopoVazio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCopoVazio.Designer.cs">
+      <DependentUpon>frmCopoVazio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoreECriacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoreECriacao.Designer.cs">
+      <DependentUpon>frmLoreECriacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Itens.cs" />
+    <Compile Include="Personagem.cs" />
+    <Compile Include="PocaoDeCura.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CriarPersonagem.resx">
+      <DependentUpon>CriarPersonagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCopoVazio.resx">
+      <DependentUpon>frmCopoVazio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoreECriacao.resx">
+      <DependentUpon>frmLoreECriacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
