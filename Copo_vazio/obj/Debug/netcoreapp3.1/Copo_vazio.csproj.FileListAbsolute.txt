@@ -1,0 +1,4 @@
+C:\Users\david\source\repos\Copo_vazio\Copo_vazio\obj\Debug\netcoreapp3.1\Copo_vazio.csprojAssemblyReference.cache
+C:\Users\david\source\repos\Copo_vazio\Copo_vazio\obj\Debug\netcoreapp3.1\Copo_vazio.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\Copo_vazio\Copo_vazio\obj\Debug\netcoreapp3.1\Copo_vazio.AssemblyInfo.cs
+C:\Users\david\source\repos\Copo_vazio\Copo_vazio\obj\Debug\netcoreapp3.1\Copo_vazio.csproj.CoreCompileInputs.cache
